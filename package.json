@@ -1,0 +1,19 @@
+{
+  "name": "Learning",
+  "version": "0.0.0",
+  "description": "Learning",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook": "~0.2.0"
+    },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-shell": "~0.3.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-gh-pages": "~0.9.1",
+    "grunt-open": "~0.2.0",
+    "load-grunt-tasks": "~0.1.0",
+    "matchdep": "~0.1.1",
+    "time-grunt": "~0.1.1"
+  }
+}
