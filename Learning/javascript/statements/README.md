@@ -8,10 +8,10 @@
 * 表达式语句
 * 复合语句'
 * 分支语句
-    * [if 语句](if语句.md)
+    * [if 语句](if.md)
     * switch 语句
 * 循环语句
-    * [for 语句](for语句.md)
+    * [for 语句](for.md)
     * for in 语句
     * while 语句
     * do/while 语句

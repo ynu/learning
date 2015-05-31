@@ -148,3 +148,8 @@ This is the summary of my book.
        * [Object Properties]()
        * [Functions]()
        * [Function Arguments]
+* [jQuery](jquery/README.md)
+    * [jQuery简介](jquery/introduction/README.md)
+       * [能做什么](jquery/introduction/dowhat.md)
+       * [优势](jquery/introduction/advantage.md)
+       * [如何使用](jquery/introduction/usage.md)
