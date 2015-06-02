@@ -4,12 +4,25 @@
 
 - 这是一本由云南大学网络与信息中心编撰的**开源图书**；
 - 本书内容包括：
-    - MongoDB
-    - JavaScript
-    - Node.js
-    - Git
+	- 基础
+		- Git
+		- MarkDown
+	- 前端开发
+		- [JavaScript](javascript/README.md)
+	    	- [jQuery](jquery/README.md)
+	    	- Angular
+    	- 测试
+    		- mocha
+    		-should.js
+    - 数据库
+    	- [MongoDB](mongodb/README.md)
+    - [Node.js](nodejs/README.md)
+    	- 常用库使用指南
+    		- uuid
+    		- array
+	- Arduino
 - 本书作为网络与信息中心员工及学生的培训教材，也可作为相关专业人士的学习参考；
-- 您可以通过[GitCafe上的项目](https://gitcafe.com/network_ynu/learning)更新书的内容。
+- 您可以通过[GiHub上的项目](https://github.com/ynu/learning)更新书的内容。
 
 
 
