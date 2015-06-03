@@ -167,6 +167,6 @@ This is the summary of my book.
        * [安装](casperjs/introduction/how_to_install.md)
        * [快速入门](casperjs/introduction/quickstart.md)
     * [CasperJS详细API](casperjs/api/README.md)
-       * [命令行模块](casperjs/introduction/casperjs_cli.md)
-       * [选择器模块](casperjs/introduction/casperjs_selectors.md)
+       * [命令行模块](casperjs/api/casperjs_cli.md)
+       * [选择器模块](casperjs/api/casperjs_selectors.md)
 
