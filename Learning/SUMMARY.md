@@ -89,6 +89,7 @@ This is the summary of my book.
         - [修改用户密码和自定义数据]()
         - [启用身份认证](enable-authentication.md)
     - [聚合](mongodb/aggregation/README.md)
+        - [聚合管道](mongodb/aggregation/aggregation-pipeline.md)
 * JavaScript
     * [JavaScript概述](javascript/introduction/introduction.md)
     * [词法结构](javascript/cfjg/README.md)
