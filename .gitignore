@@ -1,2 +1,4 @@
-node_modules/
-Learning/_book/
+node_modules
+Learning/_book
+.grunt
+dist

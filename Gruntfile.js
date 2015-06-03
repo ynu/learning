@@ -20,7 +20,7 @@ module.exports = function (grunt) {
 
         shell: {
             dist: {
-                command: 'gitbook build ./Learning --output=./dist'
+                command: 'gitbook build ./Learning ./dist'
             },
         },
 
@@ -36,4 +36,5 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('deploy', ['clean', 'shell', 'gh-pages']);
+    grunt.registerTask('default', ['deploy']);
 };
