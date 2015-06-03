@@ -4,7 +4,7 @@
   "description": "Learning",
   "license": "MIT",
   "dependencies": {
-    "gitbook": "~2.0.4"
+    "gitbook": "~2.1.0"
     },
   "devDependencies": {
     "grunt": "~0.4.1",
