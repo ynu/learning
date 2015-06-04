@@ -1,7 +1,6 @@
 #特性
 
-* [一致性](dconsistency.md)
-* [事务](daffair.md)
-* [可用性](dusability.md)
-* [查询功能](dquery.md)
-* [可扩展性](dexpansibility.md)
+* [一致性](../TSJK/mconsistency.md)
+* [事务](../TSJK/maffair.md)
+* [查询功能](../TSJK/mquery.md)
+* [可扩展性](../TSJK/mexpansibility.md)

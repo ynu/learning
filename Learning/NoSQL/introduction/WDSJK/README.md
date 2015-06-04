@@ -1,5 +1,5 @@
 	
-* [列族数据库](README.md)
+* [文档数据库](README.md)
     * [文档数据库定义](documentdb.md)
     * [文档数据库特性](documentdbspeciality.md)
         * [一致性](dconsistency.md)
