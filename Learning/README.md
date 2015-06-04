@@ -10,10 +10,11 @@
 		- 软件架构
 			- SOA
 			- MVC
+		- OAuth
 	- 前端开发
 		- [JavaScript](javascript/README.md)
 	    	- [jQuery](jquery/README.md)
-	    	- Angular
+	    	- AngularJs
     	- 测试
     		- mocha
     		- should.js
@@ -25,6 +26,10 @@
     		- array
     		- ExpressJs
 	- [Arduino](Arduino/README.md)
+	- 第三方开放平台
+		- 微信公众平台·微信开放平台
+		- 支付宝开放平台
+
 - 本书作为网络与信息中心员工及学生的培训教材，也可作为相关专业人士的学习参考；
 - 您可以通过[GiHub上的项目](https://github.com/ynu/learning)更新书的内容。
 
