@@ -16,6 +16,8 @@ MongoDB提供**聚合管道**、*Map-Reduce**、**聚合函数**等几种模型�
 
 ### Map-Reduce
 
+MapReduce是一中用于进行大数据聚合操作的模式，而不是一个特定的函数或软件。
+
 - MapReduce操作一般分为两个阶段（stage）：
 	- map阶段。map阶段处理每一个输入的文档，并将处理结果反射（emit）出去；
 	- reduce阶段。reduce阶段用于合并map阶段发射来的结果。
