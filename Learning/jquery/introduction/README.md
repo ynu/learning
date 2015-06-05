@@ -1,14 +1,19 @@
 # jQuery 概述
 
+jQuery是一个便捷、小巧、功能丰富的JavaScript库。它通过一个易用的API使得诸如：  
+HTML DOM的遍历和操作、事件处理、动画、AJAX等变得更简单，并且能够跨浏览器使用。
+由于结合了实用性和可扩展性，jQuery改变了很多人编写JavaScript的方式。
 
-jQuery，顾名思义，也就是javascript和查询（Query），是一个优秀的辅助开发库。
+## 知识储备  
+在学习jQuery之前，您应该对一下只是有基本的了解： 
 
-## 来源
+- HTML
+- CSS3
+- JavaScript
 
-由John Resig创建于2006年1月的开源项目。
+## 参考手册  
+- 你可以通过官网获得详细的[英文API](http://api.jquery.com/)文档
+- 也可以[www.w3school.com](http://www.w3school.com.cn/jquery/index.asp)获得中文参考文档
 
-## 特性
-
-- 写得更少做得更多（write less do more）
-- 兼容CSS3,和各种浏览器
-- 全面的[说明文档](http://api.jquery.com/)和成熟的插件
+[返回目录](../README.md)  
+[下一节](dowhat.md)
