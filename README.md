@@ -7,7 +7,7 @@
 - 切换到Learning子目录中，执行`cd Learning`
 - 执行`gitbook serve`
 - 在浏览器中打开[http://localhost:4000](http://localhost:4000)
-- 编译为其他格式(需要安装[calibre-ebook](calibre-ebook))，如pdf、epub、mobi等可参考其gitbook帮助信息，执行`gitbook help`
+- 编译为其他格式(需要安装[calibre-ebook](http://calibre-ebook.com/download))，如pdf、epub、mobi等可参考其gitbook帮助信息，执行`gitbook help`
 
 ### 发布到自己的gh-pages
 
