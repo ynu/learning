@@ -308,4 +308,10 @@ This is the summary of my book.
         * [恢复删除的文件](Git/get-started/Git_recovery_file.md)
         * [移动文件](Git/get-started/Git_move_file.md)
 	* [learning开源书中github协作的用法](Git/gitna57/Git_na57.md)
-  
+* [Python](python/README.md)
+    * [Python简介](python/introduction/README.md)
+       * [Python是什么](python/introduction/WhatIsPython.md)
+       * [快速教程](python/introduction/QuickTutorial.md)
+    * [Python基础](python/fundamental/README.md)
+       * [常用数据结构](python/fundamental/data_structure.md)
+       * [常用语句语法](python/fundamental/language_basic_statement.md)
