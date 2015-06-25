@@ -4,7 +4,7 @@ docker registry是保存images(镜像)的仓库，与之紧密联系的是docker
 
 ### 创建Docker Registry的mirror有什么用
 
-在国内，由于复杂的网络，docker pull some_image时一般速度都很慢，并且一个组织或公司里的所有人都pull相同的image，则每次都要在互联网上传输这些image内容，又慢又浪费流量，所以国内出现了一些提供Docker Registry的mirror服务，[如daocloud](http://dockone.io/)，但这样只能解决国内pull时的速度问题，不能解决一个组织或公司里的很多人pull时浪费互联网流量问题，所以一般很多组织或公司都提供私有或公开的镜像服务以解决这两类问题。
+在国内，由于复杂的网络，docker pull some_image时一般速度都很慢，并且一个组织或公司里的所有人都pull相同的image，则每次都要在互联网上传输这些image内容，又慢又浪费流量，所以国内出现了一些提供Docker Registry的mirror服务，如[daocloud](http://dockone.io/)，但这样只能解决国内pull时的速度问题，不能解决一个组织或公司里的很多人pull时浪费互联网流量问题，所以一般很多组织或公司都提供私有或公开的镜像服务以解决这两类问题。
 
 ### Docker Registry的mirror工作原理
 > Docker Hub由Index和Registry构成，Index保存Image Layer的hash和关联关系等元数据（Metadata），Registry用于存储Image Layer的实际二进制数据。在客户端没有配置registry-mirror参数的情况下，每一次docker pull，客户端都会先连接Index获取元数据，然后再连接Registry获取实际的Image文件。由于Docker Hub的Index节点和Regsitry都部署国外，国内用户访问，经常遭遇连接超时或中断的情况，下载速度也极其缓慢。在启用了Mirror之后，访问流程如下：
@@ -39,10 +39,8 @@ registry的主要官方文档
 - https://docs.docker.com/reference/api/hub_registry_spec/
 
 **v2**
-快速入门
 - https://docs.docker.com/registry/
 - https://docs.docker.com/registry/deploying/
-详细配置参数
 - https://docs.docker.com/registry/configuration/
 
 目前网上的很多文档都是针对v1的，并且在我使用v2的过程中遇到很多问题（可参考在[这边](http://dockone.io/question/359)的讨论记录），目前先暂时用v1做mirror服务
