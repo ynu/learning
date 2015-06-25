@@ -1,4 +1,4 @@
-# 怎样使用YNU的Docker镜像镜像服务
+# 怎样使用YNU的Docker镜像服务
 
 ### 安装或升级Docker（可选）
 
